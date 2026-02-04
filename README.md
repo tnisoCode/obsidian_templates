@@ -48,7 +48,7 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
 
 1. Stworzenie sejfu
 
-   <img width="500" height="500" alt="1" src="https://github.com/user-attachments/assets/3c5afc39-f063-4afa-a215-945ed50a13a2" />   	
+   <img width="600" height="400" alt="1" src="https://github.com/user-attachments/assets/3c5afc39-f063-4afa-a215-945ed50a13a2" />   	
 
 
 2. Skopiowanie do utworzonego sejfu folderu Templates
@@ -65,26 +65,27 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
 
 1. *Templater* - umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie skryptów JavaScript oraz zaawansowaną manipulację danymi wewnątrz notatek.     
 
-   a) kliknij w ikonę trybika (dolna część okna głównego w Obsidianie) żeby wejść do ustawień ogólnych  
+   a) kliknij w ikonę trybika (dolna część okna głównego w Obsidianie) żeby wejść do ustawień ogólnych
+
+<img width="600" height="400" alt="3aa" src="https://github.com/user-attachments/assets/bfd59e99-032e-48d4-ae7a-ff7a3e4db36a" />
+
 	
    b) kliknij "Community Plugins" -> wybierz "Turn on community plugins" -> kliknij "Browse" w sekcji "Community Plugins"  
 	
    c) w okienku wyszukiwania wpisz "Templater" i kliknij okienko wtyczki po wyszukaniu   
 
-   <img width="500" height="500" alt="2" src="https://github.com/user-attachments/assets/6795f60e-ad02-4e0a-9aa7-134df5a842ca" />   	
+   <img width="600" height="400" alt="2" src="https://github.com/user-attachments/assets/6795f60e-ad02-4e0a-9aa7-134df5a842ca" />   	
 
 
    d) kliknij "Install", a po instalacji "Enable", wyłącz okienko  
 	
    e) plugin powinien byc juz widoczny w zaintalowanych "Community Plugins" - kliknij ikonę trybika na zakładce Templater  
 	
-
-   <img width="500" height="500" alt="3" src="https://github.com/user-attachments/assets/41e9d3a1-b5c2-431f-998b-8401b6bcb400" />      	
-
+<img width="600" height="400" alt="3b" src="https://github.com/user-attachments/assets/3f0c664a-1598-43f7-bbb1-3b023c81cf40" />     
       
    f) ustaw folder dla templatek na ten do którego skopiiowałeś templatki w twoim sejfie -> "Template folder location"   
 	
-   g) wyłącz pokazywanie templatek na grafie - kliknij ikonę trybika ustawień głównych Obsidian (jak w punkcie 4.a) -> "Files and links" -> w sekcji Advanced kliknij "Excluded files" i wskaż folder templatek do wykluczenia i kliknij "Save"
+   g) wyłącz pokazywanie templatek na grafie - kliknij ikonę trybika ustawień głównych Obsidian -> "Files and links" -> w sekcji Advanced kliknij "Excluded files" i wskaż folder templatek do wykluczenia i kliknij "Save"
    
 
 
@@ -116,12 +117,6 @@ Kopiujemy i wklejamy ją w ustawieniach wtyczki (1 i 2).
 <img width="500" height="500" alt="10" src="https://github.com/user-attachments/assets/aa4dfecd-2047-4929-b3da-2d4f7a97bfbc" />
 
 
-
-
-
-
-
-
 ### Użycie Templatek
 
 Po uruchomieniu Obsidiana i wybraniu sejfu na którym chcesz pracować, pracy wklik w zakładce eksploratora plików i wybór templatek z wtyczki Templatera do stworzenia nowej notatki.     
@@ -138,6 +133,7 @@ W trybie podglądu niewidoczne będą znaczniki kodu oraz nie będziemy mogli ed
 <img width="500" height="500" alt="6" src="https://github.com/user-attachments/assets/0fb81f0a-ec89-4807-931c-d424ac2844fb" />
 
 W czasie pisania notatki (tryb source mode lub live preview) możemy używać znaczników Markdown (język znaczników służący do prostego formatowania tekstu za pomocą znaków specjalnych).     
+
 Przykładowa składnia Markdown: https://help.obsidian.md/syntax
 
 ### Tagi
