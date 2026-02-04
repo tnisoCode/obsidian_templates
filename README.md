@@ -11,6 +11,7 @@ Dokumentacja Obsidiana online: https://help.obsidian.md/
 - [Rozpoczęcie pracy](#rozpoczęcie-pracy)
 - [Instalacja wtyczki](#instalacja-wtyczki)
 - [Użycie templatek](#użycie-templatek)
+- [Zapis notatki do pliku](#zapis-notatki-do-pliku)
 
 
 ### Start
@@ -85,6 +86,11 @@ Po uruchomieniu Obsidiana i wybraniu sejfu na którym chcesz pracować, pracy wk
    
    <img width="500" height="500" alt="4" src="https://github.com/user-attachments/assets/d3d4a319-31aa-48a5-8a80-66d897cc85bb" />   
 
+### Zapis notatki do pliku
+
+Sporządzone notatki można wyeksportować do pliku pdf (1 i 2). 	
+
+<img width="500" height="500" alt="5" src="https://github.com/user-attachments/assets/d1e23f7d-a4bf-4af9-b389-532272ac048f" />
 
 
-   
+
