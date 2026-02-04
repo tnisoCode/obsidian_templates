@@ -145,7 +145,7 @@ Tagi w obsidianie umożliwianie grupowanie notatek wdg. tagów oraz wyszukiwanie
 Sporządzone notatki można wyeksportować do pliku pdf - bez dodawania żadnych pluginów (1 i 2).     
 Jeżeli chcemy eksportwoać do pliku np. w formacie *.doc należy doinstalować odpowiedni plugin - np. Pandoc.
 
-<img width="500" height="500" alt="5" src="https://github.com/user-attachments/assets/d1e23f7d-a4bf-4af9-b389-532272ac048f" />
+<img width="500" height="500" alt="5" src="https://github.com/user-attachments/assets/f042e240-595a-47af-a1a9-5adb4d5cf652" />
 
 
 ### Graf powiązań
