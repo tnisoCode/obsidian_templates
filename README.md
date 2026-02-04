@@ -26,7 +26,7 @@ Jeżeli terminal zwróci ścieżkę - Obsidian jest zainstalowany, jeżeli jej n
 
 2. Jeżeli w systemie nie ma polskiej klawiatury - należy ją ustawić.
    
-Klikamy w symbol Kali(1), a następnie w ustawienia(2)	
+Klikamy w symbol Kali(1), a następnie w ustawienia(2).	
 
 <img width="300" height="300" alt="1a" src="https://github.com/user-attachments/assets/70340fa5-b3b2-47de-a1aa-46957b3e0130" />		     
 
