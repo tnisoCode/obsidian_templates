@@ -143,9 +143,13 @@ Tagi w obsidianie umożliwianie grupowanie notatek wdg. tagów oraz wyszukiwanie
 ### Zapis notatki do pliku
 
 Sporządzone notatki można wyeksportować do pliku pdf - bez dodawania żadnych pluginów (1 i 2).     
-Jeżeli chcemy eksportwoać do pliku np. w formacie *.doc należy doinstalować odpowiedni plugin - np. Pandoc.
 
-<img width="500" height="500" alt="5" src="https://github.com/user-attachments/assets/f042e240-595a-47af-a1a9-5adb4d5cf652" />
+<img width="500" height="400" alt="5" src="https://github.com/user-attachments/assets/f042e240-595a-47af-a1a9-5adb4d5cf652" />
+
+Jeżeli chcemy eksportwoać do pliku np. w formacie *.doc użyjemy wtyczki Pandoc.     
+Po instalacji w okienku Obsidian wciskamy CTRL+P żeby wywołać wiersz poleceń i wpisujemy Pandoc co da nam możliwe rozszerzenia do jakich możemy eksportować notatkę.     
+
+<img width="500" height="400" alt="11" src="https://github.com/user-attachments/assets/a3f72112-30f8-4d98-a2b8-23ef54e6e586" />
 
 
 ### Graf powiązań
