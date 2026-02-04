@@ -7,14 +7,12 @@ Umożliwia także tworzenie grafów powiązań.
 
 Dokumentacja Obsidiana online: https://help.obsidian.md/
 
-*Co daje zastosowanie wtyczki Templater w Obsidianie ?*
 
-Umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie skryptów JavaScript oraz zaawansowaną manipulację danymi wewnątrz notatek.
 
 ## Menu
 - [Start](#start)
 - [Rozpoczęcie pracy](#rozpoczęcie-pracy)
-- [Instalacja wtyczki Templater](#instalacja-wtyczki-templater)
+- [Instalacja wtyczek](#instalacja-wtyczek)
 - [Użycie templatek](#użycie-templatek)
 - [Podgląd i pisanie notatki](#podgląd-i-pisanie-notatki)
 - [Tagi](#tagi)
@@ -63,7 +61,9 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
    `cd obsidian_templates`   
    `cp -r Templates ~/lokalizacja_twojego_sejfu/Templates`
 
-### Instalacja wtyczki Templater
+### Instalacja wtyczek
+
+1. *Templater* - umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie skryptów JavaScript oraz zaawansowaną manipulację danymi wewnątrz notatek.     
 
    a) kliknij w ikonę trybika (dolna część okna głównego w Obsidianie) żeby wejść do ustawień ogólnych  
 	
@@ -85,6 +85,42 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
    f) ustaw folder dla templatek na ten do którego skopiiowałeś templatki w twoim sejfie -> "Template folder location"   
 	
    g) wyłącz pokazywanie templatek na grafie - kliknij ikonę trybika ustawień głównych Obsidian (jak w punkcie 4.a) -> "Files and links" -> w sekcji Advanced kliknij "Excluded files" i wskaż folder templatek do wykluczenia i kliknij "Save"
+   
+
+
+3. *Pandoc* - umożliwia zaawansowany eksport notatek Markdown do wielu formatów, takich jak DOCX, PDF, EPUB, LaTeX czy HTML.     
+
+Kroki przechodzimy tak jak poprzednio przy instalacji Templatera. Wyszukujemy w pluginach po słowie Pandoc.
+
+*UWAGA*
+
+Po instalcji Pandoc, ścieżka może nie być wykrywana przez Obsidian.
+
+`which pandoc`     
+
+Powinniśmy otrzymać np. 
+
+`/usr/bin/pandoc`     
+
+Jeżeli jej nie dostajemy lub wyskakuje błąd - instalujemy Pandoc globalnie w systemie. 
+
+`sudo apt update && sudo apt install pandoc`
+
+Ponownie ściągamy ścieżkę.
+
+`which pandoc`
+
+Kopiujemy i wklejamy ją w ustawieniach wtyczki (1 i 2).
+
+<img width="500" height="500" alt="9" src="https://github.com/user-attachments/assets/fc785088-ed0b-41b3-9e79-08791856fe6a" />     
+<img width="500" height="500" alt="10" src="https://github.com/user-attachments/assets/aa4dfecd-2047-4929-b3da-2d4f7a97bfbc" />
+
+
+
+
+
+
+
 
 ### Użycie Templatek
 
@@ -114,27 +150,6 @@ Sporządzone notatki można wyeksportować do pliku pdf - bez dodawania żadnych
 Jeżeli chcemy eksportwoać do pliku np. w formacie *.doc należy doinstalować odpowiedni plugin - np. Pandoc.
 
 <img width="500" height="500" alt="5" src="https://github.com/user-attachments/assets/d1e23f7d-a4bf-4af9-b389-532272ac048f" />
-
-*UWAGA*     
-
-Po instalcji Pandoc, ścieżka może nie być wykrywana przez Obsidian.
-W terminalu ściągamy ścieżkę do Pandoc.
-
-`which pandoc`     
-
-Jeżeli jej nie dostajemy instalujemy Pandoc globalnie w systemie. 
-
-`sudo apt update && sudo apt install pandoc`
-
-Ponownie ściągamy ścieżkę.
-
-`which pandoc`
-
-Kopiujemy i wklejamy ją w ustawieniach wtyczki (1 i 2).
-
-<img width="500" height="500" alt="9" src="https://github.com/user-attachments/assets/fc785088-ed0b-41b3-9e79-08791856fe6a" />     
-<img width="500" height="500" alt="10" src="https://github.com/user-attachments/assets/aa4dfecd-2047-4929-b3da-2d4f7a97bfbc" />
-
 
 
 ### Graf powiązań
