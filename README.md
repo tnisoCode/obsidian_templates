@@ -4,6 +4,8 @@ Cel: co daje zastosowanie wtyczki Templater w Obsidianie ?
 
 Umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie skryptów JavaScript oraz zaawansowaną manipulację danymi wewnątrz notatek.
 
+Dokumentacja Obsidiana online: https://help.obsidian.md/
+
 ## Menu
 - [Start](#start)
 - [Rozpoczęcie pracy](#rozpoczęcie-pracy)
@@ -13,13 +15,27 @@ Umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie 
 
 ### Start
 
-Sprawdzenie czy Obsidian jest zainstalowany (Kali VM, jako App Image).
+1. Sprawdzenie czy Obsidian jest zainstalowany (Kali VM, jako App Image).
    
   `find ~ -type f -name "Obsidian*.AppImage" 2>/dev/null`
   
 Jeżeli terminal zwróci ścieżkę - Obsidian jest zainstalowany, jeżeli jej nie będzie - to instalacja.
 
-   `sudo apt install obsidian`
+   `sudo apt install obsidian`	
+   
+
+2. Jeżeli w systemie nie ma polskiej klawiatury - należy ją ustawić.
+   
+Klikamy w symbol kali(1), a następnie w ustawienia(2)	
+
+<img width="300" height="300" alt="1a" src="https://github.com/user-attachments/assets/70340fa5-b3b2-47de-a1aa-46957b3e0130" />		
+
+Wybieramy keyboard i klikamy zakładkę Layout.	
+Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy pożądany język(2) (PL legacy(3)), usuwamy pozostałe języki(4) i zamykamy okienko(5).	
+
+<img width="300" height="300" alt="4a" src="https://github.com/user-attachments/assets/6d607cb3-afaa-4b29-98d0-6116c82849f8" />
+
+
 
 ### Rozpoczęcie pracy
 
