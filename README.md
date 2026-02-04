@@ -1,17 +1,25 @@
-# Użycie templatek w Obsidian
+# Użycie Obsidiana
 
-Cel: co daje zastosowanie wtyczki Templater w Obsidianie ?
+*Czym jest Obsidian ?*
 
-Umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie skryptów JavaScript oraz zaawansowaną manipulację danymi wewnątrz notatek.
+Obsidian to aplikacja do tworzenia notatek i zarządzania osobistą bazą wiedzy, działająca na lokalnych plikach tekstowych w formacie Markdown.	 
+Umożliwia także tworzenie grafów powiązań.
 
 Dokumentacja Obsidiana online: https://help.obsidian.md/
+
+*Co daje zastosowanie wtyczki Templater w Obsidianie ?*
+
+Umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie skryptów JavaScript oraz zaawansowaną manipulację danymi wewnątrz notatek.
 
 ## Menu
 - [Start](#start)
 - [Rozpoczęcie pracy](#rozpoczęcie-pracy)
-- [Instalacja wtyczki](#instalacja-wtyczki)
+- [Instalacja wtyczki Templater](#instalacja-wtyczki-templater)
 - [Użycie templatek](#użycie-templatek)
+- [Podgląd i pisanie notatki](#podgląd-i-pisanie-notatki)
+- [Tagi](#tagi)
 - [Zapis notatki do pliku](#zapis-notatki-do-pliku)
+- [Graf powiązań](#graf-powiązań)
 
 
 ### Start
@@ -55,7 +63,7 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
    `cd obsidian_templates`   
    `cp -r Templates ~/lokalizacja_twojego_sejfu/Templates`
 
-### Instalacja wtyczki
+### Instalacja wtyczki Templater
 
    a) kliknij w ikonę trybika (dolna część okna głównego w Obsidianie) żeby wejść do ustawień ogólnych  
 	
@@ -86,11 +94,35 @@ Po uruchomieniu Obsidiana i wybraniu sejfu na którym chcesz pracować, pracy wk
    
    <img width="500" height="500" alt="4" src="https://github.com/user-attachments/assets/d3d4a319-31aa-48a5-8a80-66d897cc85bb" />   
 
+### Podgląd i pisanie notatki
+
+W okienku Obsidiana możemy przełączać pomiędzy edycją notatki(1) a podglądem(2) klikając w znaczek w dolnym prawym rogu (długopis, książka, kod - zależenie od załączonego trybu).     
+W trybie podglądu niewidoczne będą znaczniki kodu oraz nie będziemy mogli edytować notatki.
+
+<img width="500" height="500" alt="6" src="https://github.com/user-attachments/assets/0fb81f0a-ec89-4807-931c-d424ac2844fb" />
+
+W czasie pisania notatki (tryb source mode lub live preview) możemy używać znaczników Markdown (język znaczników służący do prostego formatowania tekstu za pomocą znaków specjalnych).     
+Przykładowa składnia Markdown: https://help.obsidian.md/syntax
+
+### Tagi
+
+Tagi w obsidianie umożliwianie grupowanie notatek wdg. tagów oraz wyszukiwanie po nich: https://help.obsidian.md/tags
+
 ### Zapis notatki do pliku
 
 Sporządzone notatki można wyeksportować do pliku pdf (1 i 2). 	
 
 <img width="500" height="500" alt="5" src="https://github.com/user-attachments/assets/d1e23f7d-a4bf-4af9-b389-532272ac048f" />
 
+### Graf powiązań
+
+Jeżeli w danej notatce znajduje się odniesienie do innej notatki zostaną one połączone na grafie.	
+Powiązanie poprzez znacznik [[Example]].
+
+<img width="500" height="500" alt="7" src="https://github.com/user-attachments/assets/e325c0e7-5ad8-4a17-9b5c-a1581d689764" />
+
+Co wynikowo, po kliknięciu w symbol grafu(1) da taki graf powiązań.
+
+<img width="500" height="500" alt="8" src="https://github.com/user-attachments/assets/936248da-052f-4cfe-a0b9-f04f87932436" />
 
 
