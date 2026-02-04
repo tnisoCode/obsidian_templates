@@ -26,11 +26,11 @@ Jeżeli terminal zwróci ścieżkę - Obsidian jest zainstalowany, jeżeli jej n
 
 2. Jeżeli w systemie nie ma polskiej klawiatury - należy ją ustawić.
    
-Klikamy w symbol kali(1), a następnie w ustawienia(2)	
+Klikamy w symbol Kali(1), a następnie w ustawienia(2)	
 
-<img width="300" height="300" alt="1a" src="https://github.com/user-attachments/assets/70340fa5-b3b2-47de-a1aa-46957b3e0130" />		
+<img width="300" height="300" alt="1a" src="https://github.com/user-attachments/assets/70340fa5-b3b2-47de-a1aa-46957b3e0130" />		     
 
-Wybieramy keyboard i klikamy zakładkę Layout.	
+Wybieramy keyboard i klikamy zakładkę Layout.     
 Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy pożądany język(2) (PL legacy(3)), usuwamy pozostałe języki(4) i zamykamy okienko(5).	
 
 <img width="300" height="300" alt="4a" src="https://github.com/user-attachments/assets/6d607cb3-afaa-4b29-98d0-6116c82849f8" />
@@ -79,9 +79,12 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
 
 ### Użycie Templatek
 
-Po uruchomieniu Obsidiana i wybraniu sejfu na którym chcesz pracować, pracy wklik w zakładce eksploratora plików i wybór templatek z wtyczki Templatera do stworzenia nowej notatki.
+Po uruchomieniu Obsidiana i wybraniu sejfu na którym chcesz pracować, pracy wklik w zakładce eksploratora plików i wybór templatek z wtyczki Templatera do stworzenia nowej notatki.     
+
+*Ćwiczenie*: Dodaj nową notatkę z szblonu Person.	
    
    <img width="500" height="500" alt="4" src="https://github.com/user-attachments/assets/d3d4a319-31aa-48a5-8a80-66d897cc85bb" />   
+
 
 
    
