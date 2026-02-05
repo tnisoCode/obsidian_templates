@@ -63,7 +63,11 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
 
 ### Instalacja wtyczek
 
-1. *Templater* - umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie skryptów JavaScript oraz zaawansowaną manipulację danymi wewnątrz notatek.     
+Wtyczki rozszerzają oraz dodają nowe funkcjonalności do Obsidiana.     
+
+
+#### 1. *Templater* - umożliwia dynamiczne wstawianie dat, automatyczne nazywanie plików, używanie skryptów JavaScript oraz zaawansowaną manipulację danymi wewnątrz notatek.     
+
 
    a) kliknij w ikonę trybika (dolna część okna głównego w Obsidianie) żeby wejść do ustawień ogólnych
 
@@ -85,17 +89,19 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
       
    f) ustaw folder dla templatek na ten do którego skopiiowałeś templatki w twoim sejfie -> "Template folder location"   
 	
-   g) wyłącz pokazywanie templatek na grafie - kliknij ikonę trybika ustawień głównych Obsidian -> "Files and links" -> w sekcji Advanced kliknij "Excluded files" i wskaż folder templatek do wykluczenia i kliknij "Save"
+   g) wyłącz pokazywanie templatek na grafie - kliknij ikonę trybika ustawień głównych Obsidian -> "Files and links" -> w sekcji Advanced kliknij "Excluded files" i wskaż folder templatek do wykluczenia i kliknij "Save"     
+   
    
 
+#### 2. *Pandoc* - umożliwia zaawansowany eksport notatek Markdown do wielu formatów, takich jak DOCX, PDF, EPUB, LaTeX czy HTML.     
 
-3. *Pandoc* - umożliwia zaawansowany eksport notatek Markdown do wielu formatów, takich jak DOCX, PDF, EPUB, LaTeX czy HTML.     
 
 Kroki przechodzimy tak jak poprzednio przy instalacji Templatera. Wyszukujemy w pluginach po słowie Pandoc.
 
 *UWAGA*
 
-Po instalcji Pandoc, ścieżka może nie być wykrywana przez Obsidian.
+Po instalcji Pandoc, ścieżka do wtyczki może nie być wykrywana przez Obsidian - dodamy ją manualnie w ustawieniach wtyczki.
+W terminalu wydajemy polecenie:
 
 `which pandoc`     
 
@@ -103,15 +109,17 @@ Powinniśmy otrzymać np.
 
 `/usr/bin/pandoc`     
 
-Jeżeli jej nie dostajemy lub wyskakuje błąd - instalujemy Pandoc globalnie w systemie. 
+Jeżeli jej nie dostajemy lub wyskakuje błąd - instalujemy Pandoc globalnie w systemie.     
 
-`sudo apt update && sudo apt install pandoc`
+W terminalu:
 
-Ponownie ściągamy ścieżkę.
+`sudo apt update && sudo apt install pandoc`     
+
+i ponownie ściągamy ścieżkę     
 
 `which pandoc`
 
-Kopiujemy i wklejamy ją w ustawieniach wtyczki (1 i 2).
+Kopiujemy i wklejamy ją w ustawieniach wtyczki w Obsidianie (1 i 2).
 
 <img width="500" height="500" alt="9" src="https://github.com/user-attachments/assets/fc785088-ed0b-41b3-9e79-08791856fe6a" />     
 <img width="500" height="500" alt="10" src="https://github.com/user-attachments/assets/aa4dfecd-2047-4929-b3da-2d4f7a97bfbc" />
@@ -119,7 +127,7 @@ Kopiujemy i wklejamy ją w ustawieniach wtyczki (1 i 2).
 
 ### Użycie Templatek
 
-Po uruchomieniu Obsidiana i wybraniu sejfu na którym chcesz pracować, pracy wklik w zakładce eksploratora plików i wybór templatek z wtyczki Templatera do stworzenia nowej notatki.     
+Po uruchomieniu Obsidiana i wybraniu sejfu na którym chcesz pracować, pracy wykonaj prawy klik w zakładce eksploratora plików i wybierz templatę z wtyczki Templater do stworzenia nowej notatki.     
 
 *Ćwiczenie*: Dodaj nową notatkę z szblonu Person.	
    
@@ -154,8 +162,8 @@ Po instalacji w okienku Obsidian wciskamy CTRL+P żeby wywołać wiersz poleceń
 
 ### Graf powiązań
 
-Jeżeli w danej notatce znajduje się odniesienie do innej notatki zostaną one połączone na grafie.	
-Powiązanie poprzez znacznik [[Example]].
+Jeżeli w danej notatce znajduje się odniesienie do innej notatki zostaną one połączone na grafie.     
+Powiązanie na poniższym przykładzie wykonane jest poprzez umieszczenie linku do pliku wewnątrz notatki (tu do notatki o tytule Example).
 
 <img width="500" height="500" alt="7" src="https://github.com/user-attachments/assets/e325c0e7-5ad8-4a17-9b5c-a1581d689764" />
 
