@@ -53,7 +53,7 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
 
 2. Skopiowanie do utworzonego sejfu folderu Templates
 
-   a) [Pobierz ZIP z temolatkami](https://github.com/tnisoCode/obsidian_templates/raw/main/Templates.zip)
+   a) pobierz [Templates.zip - klik](https://github.com/tnisoCode/obsidian_templates/raw/main/Templates.zip)
    	
    b) lub użyj gita - komenda w terminalu w dowolnym folderze
    
