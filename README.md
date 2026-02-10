@@ -53,7 +53,7 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
 
 2. Skopiowanie do utworzonego sejfu folderu Templates
 
-   a) ściagnij pliki z folderu Templates (to repo) do twojego sejfu (folder gdzie trzymane będą templatki - np. Templates)
+   a) [Pobierz ZIP gotowego katalogu](https://github.com/tnisoCode/obsidian_templates/blob/main/Templates.zip)
    	
    b) lub użyj gita - komenda w terminalu w dowolnym folderze
    
