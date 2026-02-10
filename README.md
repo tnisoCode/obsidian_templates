@@ -53,12 +53,15 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
 
 2. Skopiowanie do utworzonego sejfu folderu Templates
 
-   a) pobierz [Templates.zip - klik](https://github.com/tnisoCode/obsidian_templates/raw/main/Templates.zip)
+   a) pobierz [Templates.zip - klik](https://github.com/tnisoCode/obsidian_templates/raw/main/Templates.zip) i zapisz w swoim sejfie
    	
    b) lub użyj gita - komenda w terminalu w dowolnym folderze
    
    `git clone https://github.com/tnisoCode/obsidian_templates.git`   
-   `cd obsidian_templates`   
+   `cd obsidian_templates`
+   
+   Skopiuj do swojego sejfu
+   
    `cp -r Templates ~/lokalizacja_twojego_sejfu/Templates`
 
 ### Instalacja wtyczek
