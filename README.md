@@ -62,7 +62,7 @@ Na zakładce Layout odznaczmy przełącznik Use system defaults (1), dodajemy po
    
    Skopiuj do swojego sejfu
    
-   `cp -r Templates ~/lokalizacja_twojego_sejfu/Templates`
+   `cp -r Templates /lokalizacja_twojego_sejfu/`
 
 ### Instalacja wtyczek
 
